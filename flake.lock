@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1661262176,
+        "narHash": "sha256-42FXNd2B0QECaULG0Vx+oYzQ9euKcmlg2gmX2D+HbKI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b9fd420fa535fd254c6f1f26df770b32a9dc98b4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-22.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "opentelemetry-collector-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1655919317,
+        "narHash": "sha256-y0NySQY6HQHHXyZXM+nYfDa74mn+k2p76ynH7tzE930=",
+        "owner": "open-telemetry",
+        "repo": "opentelemetry-collector",
+        "rev": "b094dbd3cdc5708d4c4d6ec5f09534da838bd87a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "open-telemetry",
+        "ref": "v0.54.0",
+        "repo": "opentelemetry-collector",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "opentelemetry-collector-src": "opentelemetry-collector-src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
